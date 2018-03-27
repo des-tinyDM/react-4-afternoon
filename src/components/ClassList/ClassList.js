@@ -28,6 +28,7 @@ export default class ClassList extends Component {
         <h1></h1>
         <h2>ClassList:</h2>
         { students }
+        <button className="back-btn" onClick={this.props.history.goBack}>Go Back</button>
       </div>
     )
   }
